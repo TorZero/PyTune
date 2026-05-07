@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Pytune HF+
+GenericName=Audio Player
+Comment=Professional Linux audio player with real-time FFT spectrum analyzer
+Exec=bash -c 'cd "%k" && cd .. && ./run_pytune_hfplus_v16r2.sh'
+Icon=audio-player
+Terminal=false
+Categories=AudioVideo;Audio;Player;
+MimeType=audio/mpeg;audio/flac;audio/ogg;audio/x-wav;audio/mp4;audio/aac;audio/opus;audio/x-flac;
+Keywords=music;player;spectrum;analyzer;fft;equalizer;
+StartupNotify=true

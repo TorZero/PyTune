@@ -1,0 +1,5 @@
+PySide6>=6.5
+python-mpv>=1.0.5
+numpy>=1.23
+# Optional: high-performance FFT backend (tested with 0.15.0)
+pyFFTW>=0.13; platform_system == "Linux"

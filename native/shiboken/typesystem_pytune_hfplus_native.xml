@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<typesystem package="pytune_hfplus_native">
+    <load-typesystem name="typesystem_core.xml" generate="no"/>
+    <load-typesystem name="typesystem_gui.xml" generate="no"/>
+    <load-typesystem name="typesystem_widgets.xml" generate="no"/>
+    <object-type name="FFTSpectrumWidget"/>
+</typesystem>
