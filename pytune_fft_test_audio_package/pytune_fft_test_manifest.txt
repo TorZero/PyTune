@@ -1,0 +1,17 @@
+Pytune HF+ FFT Analyzer Test Audio
+Sample rate: 44100 Hz
+Channels: stereo
+Total duration: 94.35 seconds
+MP3: 320 kbps CBR using libmp3lame
+
+Timeline:
+00:00.00 - 00:03.00   1 kHz center calibration tone
+00:03.75 - 01:03.75   logarithmic sweep 20 Hz -> 20 kHz
+01:04.75 - 01:24.75   octave/ISO anchors: 31.5, 63, 125, 250, 500, 1K, 2K, 4K, 8K, 16K
+01:24.75+             stereo channel test: left 440 Hz, right 880 Hz, then broad-spectrum noise
+
+Expected analyzer behavior:
+- During the 60-second sweep, FFT activity should move from low-frequency left bars to high-frequency right bars.
+- During the octave anchors, activity should appear close to the matching frequency ruler mark.
+- During left/right test, LEFT and RIGHT VU meters should react independently.
+- During broad-spectrum noise, most spectrum bars should show energy at the same time.
