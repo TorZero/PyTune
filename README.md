@@ -10,6 +10,10 @@ Professional Linux desktop audio player with real-time FFT spectrum analyzer.
 - Stream reconnect with automatic retry (up to 5 attempts, backoff)
 
 ---
+<img width="1373" height="953" alt="image" src="https://github.com/user-attachments/assets/b1abbbdb-8d69-4dfb-870e-9c2b8477d8cd" />
+
+----
+
 
 ## Quick install (Ubuntu / Debian)
 
